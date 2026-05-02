@@ -10,8 +10,7 @@ function Summary() {
           <div class="space-y-0.5">
             <p class="text-4xl font-semibold">Davide Betterini</p>
             <p class="text-lg font-medium text-gray-500">Web Developer</p>
-            <p class="text-base font-medium">Ruby On Rails - JavaScript - React</p>
-            <p class="text-base font-medium">CSS - Bootstrap - TailwindCSS - Git</p>
+            <p class="text-base font-medium">Ruby On Rails - JavaScript - ReactCSS <br/> Bootstrap - TailwindCSS - Git</p>
           </div>
         </div>
         
