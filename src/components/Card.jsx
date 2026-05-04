@@ -9,7 +9,7 @@ function Card({ title, description, repo, link, tags }) {
       <div className="flex flex-col gap-2">
         { link ? <a className="text-sky-500" href={link} target="_blank" rel="noopener noreferrer">Visit Site</a> : null}
         <a className="text-sky-500" href={repo} target="_blank" rel="noopener noreferrer">Repository</a>
-        <ul className="list-none flex gap-4">
+        <ul className="list-none flex flex-wrap gap-4">
         {tags.map((tag) =>
           <li className="text-sm text-gray-500">{tag}</li>
         )}
