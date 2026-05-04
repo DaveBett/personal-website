@@ -1,9 +1,9 @@
 function Card({ title, description, repo, link, tags }) {
   return (
-    <div className="flex flex-col gap-5 justify-between shadow-xl/20 rounded-xl p-4 ">
+    <div className="flex flex-col gap-5 justify-between shadow-xl/20 rounded-xl p-4">
       <div>
-        <div className="text-xl font-semibold">{title}</div>
-        <div className="text-lg">{description}</div>
+        <div className="text-md md:text-lg lg:text-xl font-semibold">{title}</div>
+        <div className="text-sm md:text-md lg:text-lg">{description}</div>
       </div>
 
       <div className="flex flex-col gap-2">

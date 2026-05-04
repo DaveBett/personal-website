@@ -2,7 +2,7 @@ export const PortfolioApps = [
   {
     id: 1,
     title: "Personal Website",
-    description: "This very website, take a peek under the hood.",
+    description: "The website you are looking at right now, come take a peek under the hood.",
     link: "/",
     repo: "https://github.com/DaveBett/personal-website",
     tags: ["React", "JavaScript", "TailwindCSS"]

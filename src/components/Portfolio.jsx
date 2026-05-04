@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <div className="flex flex-col items-center mt-8">
       <div className="text-3xl font-semibold">Portfolio</div>
-        <div className="grid grid-cols-3 gap-10 mt-8 mx-8">
+        <div className="flex flex-wrap grow-2 justify-center content-stretch md:grid md:grid-cols-3 gap-10 mt-8 mx-8">
           {apps?.map((app) => (
             <Card 
             key={app.id} 
