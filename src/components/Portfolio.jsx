@@ -2,9 +2,9 @@ import Card from './Card'
 
 function Portfolio() {
   return (
-    <div class="flex flex-col items-center">
-      <div class="text-3xl font-semibold">Portfolio</div>
-        <div class="grid grid-cols-3 gap-10 mt-8 mx-8">
+    <div className="flex flex-col items-center mt-8">
+      <div className="text-3xl font-semibold">Portfolio</div>
+        <div className="grid grid-cols-3 gap-10 mt-8 mx-8">
           <Card 
             title="Personal Website" 
             description="This very website, take a peek under the hood."
@@ -37,7 +37,7 @@ function Portfolio() {
            tags={["React", "JavaScript"]}
           />
           
-          <Card 
+          <Card
            title="Flight Booker" 
            description="Search for flights, compare options, and book your trip with whoever you want."
            link = ""

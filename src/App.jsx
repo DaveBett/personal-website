@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Summary from './components/Summary'
 import Portfolio from './components/Portfolio'
+import Contacts from './components/Contacts'
 import './App.css'
 
 function App() {
@@ -8,13 +9,18 @@ function App() {
 
   return (
     <>
-    <section>
-      <Summary />
-    </section>
+      <section>
+        <Summary />
+      </section>
 
-    <section>
-      <Portfolio />
-    </section>
+      <section>
+        <Portfolio />
+      </section>
+
+
+      <section>
+        <Contacts />
+      </section>
     </>
   )
 }
