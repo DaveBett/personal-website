@@ -3,7 +3,7 @@ import { ContactMe } from './ContactMe'
 function Contacts() {
   return (
     <div className="flex flex-col items-center mt-8 gap-4">
-      <div className="text-3xl font-semibold">Contact Me!</div>
+      <div className="text-3xl font-semibold">Contact Me</div>
 
       <ContactMe />
 

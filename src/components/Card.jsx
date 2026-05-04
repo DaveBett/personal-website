@@ -7,11 +7,11 @@ function Card({ title, description, repo, link, tags }) {
       </div>
 
       <div className="flex flex-col gap-2">
-        { link ? <a href={link} target="_blank" rel="noopener noreferrer">Visit</a> : null}
-        <a href={repo} target="_blank" rel="noopener noreferrer">Repository</a>
+        { link ? <a className="text-sky-500" href={link} target="_blank" rel="noopener noreferrer">Visit Site</a> : null}
+        <a className="text-sky-500" href={repo} target="_blank" rel="noopener noreferrer">Repository</a>
         <ul className="list-none flex gap-4">
         {tags.map((tag) =>
-          <li className="text-sm">{tag}</li>
+          <li className="text-sm text-gray-500">{tag}</li>
         )}
         </ul>
       </div>
