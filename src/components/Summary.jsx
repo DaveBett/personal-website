@@ -4,7 +4,7 @@ function Summary() {
   return (
     <div className="flex justify-center">
       <div className="w-1/2 flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-12 sm:py-4">
-        <img className="mx-auto block aspect-square rounded-full sm:mx-0 sm:shrink-0 shadow-xl/20" src={photo} alt="Davide Betterini" />
+        <img className="mx-auto block h-32 aspect-square rounded-full sm:mx-0 sm:shrink-0 shadow-xl/20" src={photo} alt="Davide Betterini" />
 
         <div className="space-y-2 text-center sm:text-left">
           <div className="space-y-0.5">
