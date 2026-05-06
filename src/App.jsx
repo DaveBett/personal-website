@@ -4,6 +4,7 @@ import Portfolio from './components/Portfolio'
 import Contacts from './components/Contacts'
 import Footer from './components/Footer'
 import './App.css'
+import './index.css'
 
 function App() {
   const [count, setCount] = useState(0)

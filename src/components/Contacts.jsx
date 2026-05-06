@@ -11,11 +11,11 @@ function Contacts() {
       <div className="text-2xl font-semibold">Links</div>
 
         <div className="flex gap-3 justify-between">
-          <button className="border rounded-lg px-3 py-2 text-white bg-sky-500 hover:bg-sky-700">
+          <button className="border rounded-lg px-3 py-2 text-white bg-zinc-700 hover:bg-emerald-600 hover:shadow-xl/10 hover:shadow-emerald-600 transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-emerald-600">
             <a href="https://www.linkedin.com/in/davide-betterini-97b1a8210/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </button>
 
-          <button className="border rounded-lg px-3 py-2 text-white bg-sky-500 hover:bg-sky-700">
+          <button className="border rounded-lg px-3 py-2 text-white bg-zinc-700 hover:bg-emerald-600 hover:shadow-xl/10 transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-emerald-600">
             <a href="https://www.github.com/DaveBett" target="_blank" rel="noopener noreferrer">GitHub</a>
           </button>
         </div>
