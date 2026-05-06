@@ -58,7 +58,7 @@ export const PortfolioApps = [
   {
     id: 8,
     title: "Tic-Tac-Toe",
-    description: "a two-player game played on a 3x3 grid. Players alternate placing 'X' or 'O' in empty cells, aiming to create a straight horizontal, vertical, or diagonal line of three marks.",
+    description: "A two-player game played on a 3x3 grid. Players alternate placing 'X' or 'O' in empty cells, aiming to create a straight horizontal, vertical, or diagonal line of three marks.",
     link: "",
     repo: "https://github.com/DaveBett/tic_tac_toe",
     tags: ["Ruby"]
