@@ -1,11 +1,28 @@
-# Welcome to my personal website repository!
+# Personal Portfolio Website
 
-This is the git repository for Davide Betterini's personal website, 
+[![Live Site](https://img.shields.io/badge/live-portfolio-brightgreen.svg)](https://davide-betterini.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This website is a showcase of all the projects I have worked on while studying web development through [The Odin Project's](https://www.theodinproject.com) curriculum (Ruby Path).
+Personal developer portfolio engineered with **React** and **Tailwind CSS**. Built to showcase full-stack software projects, technical documentation, and professional contact channels through a clean, mobile-first interface.
 
-## Contacts
+**Live Website:** [davide-betterini.com](https://davide-betterini.com)
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/davide-betterini-97b1a8210/)
+---
 
-Or you can send me an email at davide.betterini@gmail.com
+## Features
+
+* **Showcase Engine:** Highlights production applications (e.g., Musicloggr) with deep links to live demos and GitHub repositories.
+* **Direct Messaging Service:** Integrated asynchronous contact form powered by **EmailJS**, handling client-side form validation and delivery without requiring a persistent backend.
+* **Responsive & Accessible UI:** Mobile-first layout designed with semantic HTML5 elements adhering to standard **a11y** web accessibility guidelines.
+* **Component-Driven Architecture:** Modular React structure for easy updates to project galleries, skills inventory, and social endpoints.
+
+---
+
+## Tech Stack
+
+* **Core:** React (SPA), JavaScript (ES6+)
+* **Styling:** Tailwind CSS
+* **Integrations:** EmailJS SDK
+* **Deployment & CI/CD:** Netlify
+
+---
