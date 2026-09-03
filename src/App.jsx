@@ -1,35 +1,21 @@
-import { useState } from 'react'
-import Summary from './components/Summary'
-import Portfolio from './components/Portfolio'
-import Contacts from './components/Contacts'
-import Footer from './components/Footer'
-import './App.css'
-import './index.css'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
-function App() {
-  const [count, setCount] = useState(0)
+import "./App.css"
 
+export default function App() {
   return (
-    <>
-      <section>
-        <Summary />
-      </section>
-
-      <section>
-        <Portfolio />
-      </section>
-
-
-      <section>
-        <Contacts />
-      </section>
-
-
-      <section>
-        <Footer />
-      </section>
-    </>
-  )
+    <div className="min-h-screen bg-zinc-950 text-zinc-100 selection:bg-emerald-500 selection:text-zinc-950">
+      <Navbar />
+      <main>
+        <Hero />
+        <Projects />
+        <About />
+        <Contact />
+      </main>
+    </div>
+  );
 }
-
-export default App
